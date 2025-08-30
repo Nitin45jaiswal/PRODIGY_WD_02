@@ -1,5 +1,6 @@
 # PRODIGY_WD_02
 Stopwatch  web Application
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +47,6 @@ Stopwatch  web Application
       from { transform: translateY(0);}
       to   { transform: translateY(-40px);}
     }
-
     .container {
       background: rgba(255,255,255,0.93);
       padding: 2.2em 2.5em 2em 2.5em;
@@ -165,7 +165,6 @@ Stopwatch  web Application
 
     // Stopwatch Logic
     let startTime, elapsed = 0, timerId = null, running = false, lapCount = 0;
-
     const display = document.getElementById('display');
     const startBtn = document.getElementById('startBtn');
     const pauseBtn = document.getElementById('pauseBtn');
@@ -238,4 +237,3 @@ Stopwatch  web Application
   </script>
 </body>
 </html>
-****
